@@ -2,7 +2,7 @@
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
-$conn = new mysqli("sql100.byetcluster.com", "if0_41613267", "OqNndICFGlIto", "if0_41613267_DocSearch");
+$conn = new mysqli("sql100.byetcluster.com", "if0_41613267", "YOUR_PASSWORD_HERE", "if0_41613267_DocSearch");
 
 if ($conn->connect_error) {
     die(json_encode(["error" => "Connection failed"]));
