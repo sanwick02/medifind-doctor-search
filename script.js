@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     data.forEach(doc => {
       resultsContainer.innerHTML += `
         <div class="doctor-card">
-          <img src="./public/Doctor-Details1@2x.png" />
+          <img src="./public/${doc.photo}" />
           <h3>${doc.name}</h3>
           <p>${doc.specialty}</p>
           <p>${doc.experience}</p>
